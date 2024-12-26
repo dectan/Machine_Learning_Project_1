@@ -8,18 +8,18 @@ Task: Interview/Debate Audio Analysis
 This task is to leverage some of the existing models to perform an analysis of 
 interviews/debates. This tool could be used to identify media bias/impartiality 
 The objective of this task is to develop a notebook that will accept an audio file (mp3 or wav) of 
-an interview/debate. 
+an interview/debate. (done)
 Speaker Diarisation Analysis: 
 Using pre-built Speaker Diarisation models, the first task is to identify who spoke when – i.e. the 
-model should output the times that each speaker started and stopped talking. This should 
-enable calculating how many seconds/minutes each speaker spoke for. 
+model should output the times that each speaker started and stopped talking. (done) This should 
+enable calculating how many seconds/minutes each speaker spoke for. (done)
 Speech to Text Analysis: 
 Once the separate speakers have been identified, the next task is to use a Speech to Text model 
 to create a transcript of the audio with the speakers identified in the transcripts: 
 E.g: 
 [Speaker 1] Hi, how are you today? 
 [Speaker 2] I’m good and you? 
-[Speaker 1] Good thanks, how about…. 
+[Speaker 1] Good thanks, how about…. (done)
 This should enable an analysis of how many words each person spoke and might enable a 
 frequency analysis of particular words (i.e. how many times a particular word was used by a 
 particular individual). 
